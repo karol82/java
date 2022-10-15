@@ -1,15 +1,13 @@
 package pl.edu.wszib.lab1.zad1;
 
-public class KoktajlTruskawkowy extends Koktaj implements Smakowalne {
+public class KoktajlTruskawkowy extends KoktajSmakowy {
     private final RodzajTruskawki rodzajTruskawki;
-    private final RodzajSmaku rodzajSmaku;
 
     public KoktajlTruskawkowy(
             final int kcal,
             final RodzajTruskawki rodzajTruskawki) {
-        super(kcal);
+        super(kcal, RodzajSmaku.TRUSKAWKOWY);
         this.rodzajTruskawki = rodzajTruskawki;
-        this.rodzajSmaku = RodzajSmaku.TRUSKAWKOWY;
     }
 
     @Override
@@ -23,10 +21,5 @@ public class KoktajlTruskawkowy extends Koktaj implements Smakowalne {
                 rodzajTruskawki
         );
         System.out.println(message);
-    }
-
-    @Override
-    public RodzajSmaku smak() {
-        return rodzajSmaku;
     }
 }
