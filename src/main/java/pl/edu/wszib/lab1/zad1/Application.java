@@ -3,16 +3,16 @@ package pl.edu.wszib.lab1.zad1;
 public class Application {
 
     public static void main(String[] args) {
-        KoktajlTroskawkowy koktajlTroskawkowy = new KoktajlTroskawkowy(
+        KoktajlTruskawkowy koktajlTruskawkowy = new KoktajlTruskawkowy(
                 300,
-                RodzajTroskawki.ANANASOWA
+                RodzajTruskawki.ANANASOWA
         );
-        koktajlTroskawkowy.jedz();
-        koktajlTroskawkowy.pij();
+        koktajlTruskawkowy.jedz();
+        koktajlTruskawkowy.pij();
         /**
          * Zadanie:
          * Utwórz enum RodzajSmaku zawierający wartości:
-         * Troskawkowy
+         * Truskawkowy
          * Bananowy
          * Szpinakowy
          * Ciasteczkowy
