@@ -9,18 +9,19 @@ public class Application {
         );
         koktajlTroskawkowy.jedz();
         koktajlTroskawkowy.pij();
-
-        int myVar = 5;
-        int myNewVar = test(myVar);
-        System.out.println(myNewVar);
-
-        RodzajTroskawki rodzaj = RodzajTroskawki.KENT;
-        switch (rodzaj) {
-            case ANANASOWA:
-                break;
-            case KENT:
-                break;
-        }
+        /**
+         * Zadanie:
+         * Utwórz enum RodzajSmaku zawierający wartości:
+         * Troskawkowy
+         * Bananowy
+         * Szpinakowy
+         * Ciasteczkowy
+         * Jabłkowy
+         *
+         * A następnie zmodyfikować interfejs Smakowy
+         * tak aby zwracał rodzaj smaku i dostosować resztę programu
+         *
+         */
     }
 
     public static int test(int myVar) {
