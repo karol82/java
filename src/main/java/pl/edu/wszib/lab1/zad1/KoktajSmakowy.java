@@ -9,6 +9,7 @@ public abstract class KoktajSmakowy extends Koktaj implements Smakowalne {
         this.rodzajSmaku = rodzajSmaku;
     }
 
+
     @Override
     public RodzajSmaku smak() {
         return rodzajSmaku;

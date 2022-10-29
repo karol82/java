@@ -12,6 +12,12 @@ public class KoktajlTruskawkowy extends KoktajSmakowy {
 
     @Override
     public void pij() {
+        // Zadanie:
+        // Przy użyciu switch statement oraz switch expression (jedna metoda zakomentowana)
+        // do sformatowanej wiadomości dodaj
+        // na podstawie rodzaju smaku informację o tym czy smak jest: OWOCOWY, WARZYWNY czy INNY
+        // informacja ta powinna pochodzić z nowej metody zrodloSmaku,
+        // która zwraca nowy enum ZrodloSmaku. Metoda ta powinna zostać umieszczona w klasie KoktajlSmakowy
         System.out.println("Pije koktajl o smaku " +
                 smak() + ", która cechuje się " + rodzajTruskawki.cecha()
         );
