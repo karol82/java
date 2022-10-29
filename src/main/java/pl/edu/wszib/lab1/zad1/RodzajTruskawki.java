@@ -13,7 +13,10 @@ public enum RodzajTruskawki {
     HONEOYE("Honeoye", "Wyrazista"),
     POLKA("Polka", "Najsmaczniejsza"),
     KENT("Kent", "Dla fanów słodyczy"),
-    CHRISTINE("Christine", "Zaowocuje szybko i obficie");
+    CHRISTINE("Christine", "Zaowocuje szybko i obficie"),
+    BRAND_NEW("Brand new", "Zawiera wszystkie potrzebne witaminy i minerały"),
+    SUPER_NEW("", "")
+    ;
 
     private final String nazwa;
     private final String cecha;
